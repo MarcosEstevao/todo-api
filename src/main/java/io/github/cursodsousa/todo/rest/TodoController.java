@@ -22,7 +22,7 @@ import io.github.cursodsousa.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("https://marcosestevao.github.io/")
 public class TodoController {
 
 	@Autowired
